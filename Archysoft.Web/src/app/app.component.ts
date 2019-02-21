@@ -12,6 +12,6 @@ import {locale as ruLang} from '../assets/i18n/ru';
 export class AppComponent {
   constructor(private translationService:TranslationService) {
     translationService.loadTranslations(enLang, ruLang);
-    translationService.setLanguage('ru');
+    translationService.setLanguage('en');
   }
 }
